@@ -4,6 +4,12 @@ A fast, interactive CSV viewer for the terminal with vim-like keybindings. Zero 
 
 Both **terminal (curses)** and **GUI (tkinter)** versions included.
 
+## Why?
+
+Sometimes you just need to look at a CSV on a remote server. You don't want to `pip install` a heavy library, you don't have admin access, and `cat data.csv` is unreadable. csv-viewer is a single Python file that works anywhere Python 3.6+ is installed — no setup, no dependencies, no nonsense.
+
+> See also: **[md-viewer](https://github.com/keonho-lee/md-viewer)** — a zero-dependency Markdown viewer with the same philosophy.
+
 ## Features
 
 - **Interactive terminal viewer** with curses — no external dependencies
@@ -22,16 +28,11 @@ Both **terminal (curses)** and **GUI (tkinter)** versions included.
 No installation required. Just download and run:
 
 ```bash
-# Clone the repository
+# One-liner install
+curl -sSL https://raw.githubusercontent.com/keonho-lee/csv-viewer/main/csv_reader.py -o csv_reader && chmod +x csv_reader
+
+# Or clone the full repo (includes GUI version + examples)
 git clone https://github.com/keonho-lee/csv-viewer.git
-cd csv-viewer
-
-# Run directly
-python3 csv_reader.py your_file.csv
-
-# Or make it executable and put it in your PATH
-chmod +x csv_reader.py
-cp csv_reader.py ~/.local/bin/csv_reader
 ```
 
 **Requirements:** Python 3.6+ (standard library only — no pip install needed)
