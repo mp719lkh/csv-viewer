@@ -8,7 +8,7 @@ Both **terminal (curses)** and **GUI (tkinter)** versions included.
 
 Sometimes you just need to look at a CSV on a remote server. You don't want to `pip install` a heavy library, you don't have admin access, and `cat data.csv` is unreadable. csv-viewer is a single Python file that works anywhere Python 3.6+ is installed — no setup, no dependencies, no nonsense.
 
-> See also: **[md-viewer](https://github.com/keonho-lee/md-viewer)** — a zero-dependency Markdown viewer with the same philosophy.
+> See also: **[md-viewer](https://github.com/mp719lkh/md-viewer)** — a zero-dependency Markdown viewer with the same philosophy.
 
 ## Features
 
@@ -29,10 +29,10 @@ No installation required. Just download and run:
 
 ```bash
 # One-liner install
-curl -sSL https://raw.githubusercontent.com/keonho-lee/csv-viewer/main/csv_reader.py -o csv_reader && chmod +x csv_reader
+curl -sSL https://raw.githubusercontent.com/mp719lkh/csv-viewer/main/csv_reader.py -o csv_reader && chmod +x csv_reader
 
 # Or clone the full repo (includes GUI version + examples)
-git clone https://github.com/keonho-lee/csv-viewer.git
+git clone https://github.com/mp719lkh/csv-viewer.git
 ```
 
 **Requirements:** Python 3.6+ (standard library only — no pip install needed)
