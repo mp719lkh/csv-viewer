@@ -1,0 +1,16 @@
+name,department,role,salary,start_date,email
+Alice Johnson,Engineering,Senior Developer,95000,2019-03-15,alice@example.com
+Bob Smith,Marketing,Campaign Manager,72000,2020-07-01,bob@example.com
+Charlie Kim,Engineering,Team Lead,110000,2017-11-20,charlie@example.com
+Diana Park,Design,UI/UX Designer,78000,2021-01-10,diana@example.com
+Eve Chen,Engineering,Junior Developer,65000,2023-06-01,eve@example.com
+Frank Lee,Marketing,Director,125000,2016-04-22,frank@example.com
+Grace Wang,Design,Senior Designer,88000,2018-09-15,grace@example.com
+Henry Brown,Engineering,DevOps Engineer,92000,2020-02-28,henry@example.com
+Iris Davis,HR,Recruiter,68000,2022-08-12,iris@example.com
+Jack Wilson,Engineering,Staff Engineer,130000,2015-01-05,jack@example.com
+Karen Taylor,Finance,Analyst,75000,2021-04-18,karen@example.com
+Leo Martinez,Engineering,Backend Developer,87000,2019-10-30,leo@example.com
+Mia Garcia,Marketing,Content Writer,62000,2023-03-01,mia@example.com
+Noah Anderson,Design,Design Lead,105000,2017-06-14,noah@example.com
+Olivia Thomas,Engineering,Frontend Developer,85000,2020-12-01,olivia@example.com
