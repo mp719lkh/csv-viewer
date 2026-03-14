@@ -195,6 +195,36 @@ python3 csv_reader.py data.csv -o data        # csv → table
 python3 csv_reader.py data.table              # table → csv
 ```
 
+## Vim / Neovim Integration
+
+A Vim plugin file (`csv_viewer.vim`) is included to open CSV files directly from your editor.
+
+### Setup
+
+```vim
+" In your vimrc or init.vim:
+source /path/to/csv_viewer.vim
+
+" Optional: set custom path to csv_reader
+let g:csv_viewer_cmd = '/path/to/csv_reader.py'
+```
+
+### Usage
+
+| Command / Key | Action |
+|---------------|--------|
+| `:CsvViewer` | Open current CSV/TSV file in the viewer |
+| `<Leader>pv` | Toggle viewer (press again to close) |
+| `q` | Quit viewer and return to buffer |
+
+The viewer runs inside a terminal buffer — works in both Vim (8.1+, `+terminal`) and Neovim.
+
+```vim
+" Example: open a CSV, then press \pv to preview it
+:edit data.csv
+\pv
+```
+
 ## License
 
 [MIT](LICENSE)
